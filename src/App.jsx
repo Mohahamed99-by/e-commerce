@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <StoreProvider >
-        <Router >
+        <Router basename="/e-commerce">
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/basket' element={<Basket />} />
